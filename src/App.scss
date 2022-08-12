@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family:'Montserrat Alternates', sans-serif;
+  font-size: 16px;
+
+}
+
+p{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  max-width: 1000px;
+  margin: auto;
+}
+
+section{
+  margin: 80px 0;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+ .flex-center{
+  align-items: center;
+  justify-content: center;
+}
+
+.gap-20{
+  gap: 25px;
+}
+img{
+  width: 100%;
+   object-fit: cover;
+   border-radius: 10;
+}
+
+// hero-------------------------------------------
+.hero{
+  position: relative;
+  height: 70vh;
+  overflow: hidden;
+}
+.hero-content{
+  max-width: 400px;
+  position: absolute;
+  right: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+h2{
+  margin-bottom: 18px;
+  font-size: 38px;
+}
+
+h1{
+  margin-bottom: 18px;
+  font-size: 32px;
+  
+}
+
+// h2,p{
+//   text-shadow: 4px 4px 7px rgb(40, 33, 33);
+  
+// }
+p{
+  font-size: 16px;
+}
+// --------------------------special dishes---------
+.special-dishes-content{
+  max-width: 600px;
+  margin: auto;
+
+}
+
+.special-dishes-list{
+ li{
+  width: 20%;
+  margin-top: 70px;
+ }
+}
+.special-dishes{
+  color: chocolate;
+  height: 520px;
+  margin-top: 0px;
+}
+.special-dishes-content h2{
+  margin-top: 50px;
+}
